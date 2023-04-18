@@ -33,7 +33,7 @@ npm install -g newman-reporter-htmlextra
 ```
 
 ## API Documentation:
-- https://documenter.getpostman.com/view/13082503/2s93Xwz4Az
+- https://restful-booker.herokuapp.com/apidoc/index.html
 
 ## Test case list:
 1. ### Create Auth Token

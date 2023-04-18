@@ -79,6 +79,4 @@ npm install -g newman-reporter-htmlextra
 	1. > Only Message
 
 ## Newman Report Summary:
-![Newman Report Summary](https://user-images.githubusercontent.com/70250199/232209683-ddb8e3c5-4f23-4355-8919-61cd6ddca91a.png)
-
-![Newman Report Summary](https://user-images.githubusercontent.com/70250199/232209794-f84c539b-e3cf-4e80-ab0e-9d6d59b1a339.png)
+![booking-rest-api-newman](https://user-images.githubusercontent.com/61946723/232899693-41562a12-1e93-4742-bc56-748e4363a6e9.png)

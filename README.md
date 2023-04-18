@@ -1,15 +1,15 @@
-# Student_Rest_API_Newman
+# Booking_Rest_API_Newman
 
 ## How to run this project
 - Clone this project
 - Open with Postman / Command Shell
 - Run Command:  
 ```console 
-newman run StudentDetails.postman_collection.json -e StudentDetails.postman_environment.json 
+newman run Restful-booker.postman_collection.json -e BatchIT.postman_environment.json
 ```
 - Run Command for Report: 
 ```console 
-newman run StudentDetails.postman_collection.json -e StudentDetails.postman_environment.json -r cli,htmlextra
+newman run Restful-booker.postman_collection.json -e BatchIT.postman_environment.json -r cli,htmlextra
 ```
 
 ## Technology used:
@@ -36,52 +36,45 @@ npm install -g newman-reporter-htmlextra
 - https://documenter.getpostman.com/view/13082503/2s93Xwz4Az
 
 ## Test case list:
-1. ### Create Student
+1. ### Create Auth Token
+	> Using Form Data with those data
+	1. username : admin
+	2. password: password123
+	
+1. ### Create Booking
 	> Create Data Sets Using the Dynamic Random Variables.
 
-2. ### Verify Crated Student Details
+2. ### Verify Crated Booking Details
 	> In the test case you need to validate the following field values:
  	1. > First Name
- 	2. > Middle Name
- 	3. > Last Name
- 	4. > Date of Birth
+ 	2. > Last Name
+ 	3. > totalprice
+	4. > depositpaid
+	5. > bookingdates
+	6. > additionalneeds
 
-3. ### Update Student
+3. ### Update Booking
 	> In the test case you need to validate the following field values:
  	1. > Only Message
-4. ### Verify Verify Updated Student Details
+4. ### Verify Verify Updated Booking Details
 	> In the test case you need to validate the following field values:
 	1. > First Name
- 	2. > Middle Name
-	3. > Last Name
- 	4. > Date of Birth
+ 	2. > Last Name
+ 	3. > totalprice
+	4. > depositpaid
+	5. > bookingdates
+	6. > additionalneeds
 
-5. ### Create Technical skills Create Student Address
-	> In the test case you need to validate the following field values:
-	1. > Only Message
-
-6. ### Create a Student Address
-	> In the test case you need to validate the following field values:
-	1. > Only Message
-
-7. ### Get the Student's Full Details
+5. ### Get the Booking's Full Details
 	> In the test case you need to validate the following field values:
 	1. > First Name
-	2. > Middle Name
-	3. > Last Name
-	4. > Date of Birth
-	5. > Language
-	6. > Year Of Experience
-	7. > Last Used Date
-	8. > House Number
-	9. > City
-	10. > State
-	11. > Country
-	12. > Std Code
-	13. > Home Address
-	14. > Mobile
+ 	2. > Last Name
+ 	3. > totalprice
+	4. > depositpaid
+	5. > bookingdates
+	6. > additionalneeds
 
-8. ### Delete Specific Student
+6. ### Delete Specific Booking
 	> In the test case you need to validate the following field values:
 	1. > Only Message
 
